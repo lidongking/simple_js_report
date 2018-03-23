@@ -1,4 +1,5 @@
 (function(win, doc){
+	// 后端控制台收集接口
     var host = '/js.php';
 
     // json组装
@@ -51,6 +52,5 @@
             (new Image).src = host + "?event=" + encodeURIComponent(json_encode(msg));
         }
         console.log(msg);
-        (new Image).src = host + "?event=" + encodeURIComponent(json_encode(msg));
     });
 }(window, document));
