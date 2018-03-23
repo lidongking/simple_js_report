@@ -9,7 +9,7 @@
 header('Content-Type:text/html;charset=UTF-8');
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Headers: Content-Type');
-header('Access-Control-Request-Method: GET,POST,OPTION');
+header('Access-Control-Request-Method: GET,POST,OPTIONS');
 $method = ($_SERVER['REQUEST_METHOD']);
 if ($method == 'POST')
 {
